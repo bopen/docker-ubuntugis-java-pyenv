@@ -5,7 +5,7 @@ MAINTAINER Alessandro Amici <a.amici@bopen.eu>
 RUN apt-get update && apt-get install -y --no-install-recommends \
     python-software-properties \
     software-properties-common \
-    && add-apt-repository ppa:ppa:webupd8team/java \
+    && add-apt-repository ppa:webupd8team/java \
     && echo oracle-java9-installer shared/accepted-oracle-license-v1-1 select true | debconf-set-selections \
     && apt-get update && apt-get install -y --no-install-recommends \
     libgtk-3-0 \

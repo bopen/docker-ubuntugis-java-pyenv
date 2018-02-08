@@ -18,4 +18,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python-software-properties \
     software-properties-common \
     && apt-get autoremove -y \
- && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+ && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /var/cache/oracle-jdk9-installer

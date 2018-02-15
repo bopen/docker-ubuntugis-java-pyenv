@@ -1,4 +1,4 @@
-FROM bopen/ubuntu-pyenv:latest
+FROM bopen/ubuntugis-pyenv:latest
 
 MAINTAINER Alessandro Amici <a.amici@bopen.eu>
 
